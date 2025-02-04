@@ -1,9 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client"; // Correct import for React 18
+// import Header from "./layout/Header";
 
-class App extends React.Component {
-  render() {
-    return <h1>React App</h1>;
-  }
-}
-ReactDOM.render(<App />, document.getElementById("app"));
+const App = () => {
+  return <div>helloo</div>;
+};
+
+// Fix: Use createRoot instead of render
+const root = ReactDOM.createRoot(document.getElementById("app"));
+root.render(<App />);
