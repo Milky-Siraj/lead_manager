@@ -1,11 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom/client"; // Correct import for React 18
-// import Header from "./layout/Header";
 
 const App = () => {
-  return <div>helloo</div>;
+  return <div>Hello</div>;
 };
 
-// Fix: Use createRoot instead of render
-const root = ReactDOM.createRoot(document.getElementById("app"));
-root.render(<App />);
+export default App; // Make sure this is a default export
