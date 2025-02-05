@@ -1,9 +1,17 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import Header from "./layout/header";
+import Dashboard from "./leads/Dashboard";
 
 class App extends Component {
   render() {
-    return <Header />;
+    return (
+      <Fragment>
+        <Header />
+        <div className="container">
+          <Dashboard />
+        </div>
+      </Fragment>
+    );
   }
 }
 
