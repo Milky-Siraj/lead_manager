@@ -3,7 +3,7 @@ import Header from "./layout/header";
 import Dashboard from "./leads/Dashboard";
 
 import { Provider } from "react-redux";
-import store from "../store";
+import store from "../../store";
 
 class App extends Component {
   render() {
