@@ -20,4 +20,4 @@ class App extends Component {
   }
 }
 
-export default App; // Ensure it is a default export
+export default App;
