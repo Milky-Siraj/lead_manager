@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 export class Leads extends Component {
   render() {
-    return <h1>Leads Lists</h1>;
+    return <h1>Leads List</h1>;
   }
 }
 
